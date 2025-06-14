@@ -1,2 +1,2 @@
 # RCPilotTable
-A height adjustable table for all RC pilots
+The height adjustable table for all RC pilots
