@@ -6,7 +6,7 @@ Unless otherwise noted, this work is licensed under a
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
-![under-construction-image]
+![images\under-construction-image]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
