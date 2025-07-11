@@ -1,5 +1,4 @@
 # RC Pilot Table
-___
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
 
 :wheelchair: No crossmembers and a shallow deck make it usable for all pilots, including those using a wheelchair. 
@@ -9,24 +8,21 @@ ___
 ![](/drawings%20and%20images/IMG_9872.png)
 
 ## Table of content
-___
 :construction: TOC needed
 
 
 ## Project origin
-___
 
-Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. This design builds on (dare I say improves?) prior art as featured here.
+Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. This design builds on (dare I say improves?) prior art as featured here:
 
-https://www.modelaviation.com/Club-Field-Safety-Benches
+![](https://modelaviation.s3.us-east-2.amazonaws.com/08bench01-600.jpg?VersionId=744QaEbHNXa4dHiNFX8TMIt47bCXdaZG)
 
-https://www.flickr.com/photos/astrowings/20478478989
+source: https://www.modelaviation.com/Club-Field-Safety-Benches
 
 One day, a fellow pilot pointed out that they were difficult for him to use. This is when I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. My friend also explained that a higher working surface would be nice to have. A feys days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
 A web search for an off-the-shelf solution yielded no convincing options and neither did my seach for better open source designs. So I decided to come up with my own solution.
 
 ## How to operate
-___
 Safety first: This is a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
 
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
@@ -34,11 +30,9 @@ The table has an internal 8-36V buck/boost power regulator, so it can handle any
 Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The code will time out after a few seconds, press the button again as needed. The software is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-___
 A detailed build guide or a build video will follow. For the time being, I an providing the FreeCAD drawings, electrical schematics and STLs in the subfolders
 
 ### Lumber
-
 I chose to only use only one type of lumber for the entire build. This reduces waste and makes purchasing easier for the hobbyist. 2 in. x 6 in. dimensional lumber is readily available at hardware stores and local lumber yards. I built the first prototype from green western red cedar, but any hardwood or SPF will work the same depending on climate and weather, how long you want your table to last, how good you want it to look and how much $ you're willing to spend.
 
 You need a total of ~ 50ft:
@@ -73,17 +67,14 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 https://www.amazon.com/hz/wishlist/ls/PGYE4HTR4F8?ref_=wl_share
 
 ## Height adjustment
----
 I chose to use linear actuators for height adjustable legs. The rest of the table is designed is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant and affordable enough at around ~$50 a piece at time of writing. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required to maintain a level surface and prevent rocking.
 
 ## What's next
-___
-better software
-build guides
-build videos
+- better software
+- better build guides
+- record build videos
 
 ## License
-
 Unless otherwise noted, this work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
