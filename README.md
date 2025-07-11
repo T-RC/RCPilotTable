@@ -6,7 +6,7 @@ ___
 
 :wrench: The table height adjusts simply via a rocker switch. It levels itself via a pushbutton. It is designed for outdoor use and runs on 2S-8S battery power.
 
-- GIF demo
+![](/drawings%20and%20images/IMG_9872.png)
 
 ## Table of content
 ___
