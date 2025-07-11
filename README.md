@@ -1,5 +1,5 @@
-# pre-release note
-👷‍♂️ This repository is still a work-in-progress, please be patient, it will likely change daily 🚧
+# 🚧 pre-release note 🚧
+👷‍♂️ This repository is still a work-in-progress, please be patient, things will likely change daily
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
