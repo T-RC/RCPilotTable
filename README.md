@@ -61,9 +61,9 @@ The hanger is printed in ASA. I'm sure there is an injection molded substitute s
 This print is used a jig to help making cutting the bottom of the leg housing. The linear actuator has to be tightly held or else the table would get wiggly. Use this template to hold and cut the wooden bracket.
 
 ### Amazon - what I bought
-These are not affiliate links and I am not trying to monetize or profit of this project. These are also not reviews or recommendations. The amazon link simply takes you to a list of all the things that I personally bought and used during my build. It is not comprehensive either, but I think it might help nevertheless.  
+These are not affiliate links and I am not trying to monetize or profit of this project. Please also don't consider these reviews or recommendations. The amazon link below simply takes you to a list of all the stuff that I personally bought and used during the build. It is not a comprehensive list either, but I think it might be helpful nevertheless.  
 
-https://www.amazon.com/hz/wishlist/ls/PGYE4HTR4F8?ref_=wl_share
+[Amazon list](https://www.amazon.com/hz/wishlist/ls/PGYE4HTR4F8?ref_=wl_share)
 
 ## Height adjustment
 I chose to use linear actuators for height adjustable legs. The rest of the table is designed is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant and affordable enough at around ~$50 a piece at time of writing. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required to maintain a level surface and prevent rocking.
