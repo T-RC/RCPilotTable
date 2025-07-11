@@ -7,10 +7,6 @@
 
 ![](/drawings%20and%20images/IMG_9872.png)
 
-## Table of content
-:construction: TOC needed
-
-
 ## Project origin
 
 Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. This design builds on (dare I say improves?) prior art as featured here:
