@@ -10,7 +10,7 @@
 
 ![](/drawings%20and%20images/IMG_9872.png)
 
-## Project origin
+## Project background
 
 Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. This design builds on (dare I say improves?) prior art as featured here:
 
@@ -18,23 +18,23 @@ Initially, I did not see an issue with the tables at my local AMA field. They ar
 
 source: https://www.modelaviation.com/Club-Field-Safety-Benches
 
-One day, a fellow pilot pointed out that they were difficult for him to use. This is when I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. My friend also explained that a higher working surface would be nice to have. A feys days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
-A web search for an off-the-shelf solution yielded no convincing options and neither did my seach for better open source designs. So I decided to come up with my own solution.
+One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A feys days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
+A web search for an off-the-shelf solution yielded no convincing options and neither did my seach for better open source designs. I decided to come up with my own solution.
 
 ## How to operate
 Safety first: This is a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
 
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
 
-Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The code will time out after a few seconds, press the button again as needed. The software is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
+Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The program is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
 A detailed build guide or a build video will follow. For the time being, I an providing the FreeCAD drawings, electrical schematics and STLs in the subfolders
 
 ### Lumber
-I chose to only use only one type of lumber for the entire build. This reduces waste and makes purchasing easier for the hobbyist. 2 in. x 6 in. dimensional lumber is readily available at hardware stores and local lumber yards. I built the first prototype from green western red cedar, but any hardwood or SPF will work the same depending on climate and weather, how long you want your table to last, how good you want it to look and how much $ you're willing to spend.
+I chose to only use one kind of timber for the entire build. This reduces waste and makes purchasing easier for us hobbyists. 2 in. x 6 in. dimensional lumber is readily available at hardware stores and local lumber yards. I built the first prototype from green western red cedar, but any hardwood or SPF will work the same depending on climate and weather, how long you want your table to last, how good you want it to look and how much $ you're willing to spend.
 
-You need a total of ~ 50ft:
+You need a total of apprimately 50ft:
 
 | count | length | use
 | --- | --- | ----
@@ -45,10 +45,9 @@ You need a total of ~ 50ft:
 | 4 pcs | 2"  | (from scraps) for the leg housing bottoms
 
 ### Legs - linear actuators
-
-
+The legs I used are [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) from Amazon.
 ### 3D Prints
-The STLs are posted here. As filament, I am using either Polymaker ASA or Priline TPU. 
+The STLs are posted [here](/3D%20print%20STLs). As filament, I am using either Polymaker ASA or Priline TPU. 
 ### electrical box
 I chose printing the box because I can skip several work steps and iterate faster this way. It also allows having a two colored front plate by stopping the print and changing color after a few layers. An off the shelve electrical enclosure will work just as well though.
 ### feet
