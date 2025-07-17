@@ -18,8 +18,8 @@ Initially, I did not see an issue with the tables at my local AMA field. They ar
 
 source: https://www.modelaviation.com/Club-Field-Safety-Benches
 
-One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A feys days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
-A web search for an off-the-shelf solution yielded no convincing options and neither did my seach for better open source designs. I decided to come up with my own solution.
+One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
+A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
 I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant and affordable enough at around ~$50 a piece when I purchased them. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required to maintain a level surface and prevent rocking.
 
@@ -31,12 +31,12 @@ The table has an internal 8-36V buck/boost power regulator, so it can handle any
 Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The program is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-A detailed build guide or a build video will follow. For the time being, I an providing the FreeCAD drawings, electrical schematics and STLs in the subfolders
+A detailed build guide or a build video will follow. For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the subfolders
 
 ### Lumber
 I chose to only use one kind of timber for the entire build. This reduces waste and makes purchasing easier for us hobbyists. 2 in. x 6 in. dimensional lumber is readily available at hardware stores and local lumber yards. I built the first prototype from green western red cedar, but any hardwood or SPF will work the same depending on climate and weather, how long you want your table to last, how good you want it to look and how much $ you're willing to spend.
 
-You need a total of apprimately 50ft:
+You need a total of approximately 50ft:
 
 | count | length | use
 | --- | --- | ----
@@ -49,7 +49,7 @@ You need a total of apprimately 50ft:
 ### Legs - linear actuators
 The legs I used are [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) from Amazon.
 ### 3D Prints
-I used FreeCad for all the desings and [all drawings are here](/drawings%20and%20images). The STLs are posted [here](/3D%20print%20STLs). As filament, I am using either [Polymaker ASA](https://www.amazon.com/dp/B09DKQK318/?coliid=I2VLWN38FZA86A&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) or [Priline TPU](https://www.amazon.com/dp/B0BJ5XRDFB/?coliid=I2SHOWQPSHQ9XM&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it). 
+I used [FreeCad](https://www.freecad.org/) for all the designs and [all drawings are here](/drawings%20and%20images). The STLs are posted [here](/3D%20print%20STLs). As filament, I am using either [Polymaker ASA](https://www.amazon.com/dp/B09DKQK318/?coliid=I2VLWN38FZA86A&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) or [Priline TPU](https://www.amazon.com/dp/B0BJ5XRDFB/?coliid=I2SHOWQPSHQ9XM&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it). 
 ### electrical box
 I chose 3D-printing the box because I can skip several work steps and iterate faster this way. It also allows having a two colored front plate by stopping the printer and changing color after a few layers. An [off the shelve electrical enclosure](https://www.amazon.com/dp/B08N1DD5WJ/?coliid=I3T08VJ4IFBYYQ&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) will work just as well though.
 ### feet
@@ -74,6 +74,13 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 ## License
 Unless otherwise noted, this work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
