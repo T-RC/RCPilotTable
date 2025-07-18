@@ -1,5 +1,5 @@
 # 🚧 pre-release note 🚧
-👷‍♂️ This repository is still a work-in-progress, please be patient, things will likely change daily
+👷‍♂️ This repository is still a work-in-progress, please be patient.
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
@@ -12,7 +12,7 @@
 
 ## Project background
 
-Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. This design builds on (dare I say improves?) prior art as featured here:
+Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. My design is inparts inspired by prior art as featured here:
 
 ![](https://modelaviation.s3.us-east-2.amazonaws.com/08bench01-600.jpg?VersionId=744QaEbHNXa4dHiNFX8TMIt47bCXdaZG)
 
@@ -21,17 +21,19 @@ source: https://www.modelaviation.com/Club-Field-Safety-Benches
 One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
 A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
-I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant and affordable enough at around ~$50 a piece when I purchased them. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required to maintain a level surface and prevent rocking.
+I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
 
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
 
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
 
-Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The program is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
+Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-A detailed build guide or a build video will follow. For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the subfolders
+A detailed build guide or a build video will follow. For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images)
+
+![](/drawings%20and%20images/table%20assembly%20view.png)
 
 ### Lumber
 I chose to only use one kind of timber for the entire build. This reduces waste and makes purchasing easier for us hobbyists. 2 in. x 6 in. dimensional lumber is readily available at hardware stores and local lumber yards. I built the first prototype from green western red cedar, but any hardwood or SPF will work the same depending on climate and weather, how long you want your table to last, how good you want it to look and how much $ you're willing to spend.
@@ -44,7 +46,7 @@ You need a total of approximately 50ft:
 | 3 pcs | 32" | for deck support
 | 2 pcs | 15" | for side boards (optional, need to be fitted)
 | 16 pcs| 6" | for the leg housing sides
-| 4 pcs | 2"  | (from scraps) for the leg housing bottoms
+| 4 pcs | 2"  | for the leg housing bottoms, use jig to cut
 
 ### Legs - linear actuators
 The legs I used are [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) from Amazon.
@@ -67,9 +69,9 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 [Amazon list](https://www.amazon.com/hz/wishlist/ls/PGYE4HTR4F8?ref_=wl_share)
 
 ## What's next
-- better software
-- better build guides
-- record build videos
+- My next step is to record a build video for the electrical box
+- Maybe a full build video as well
+- The software can still use some work
 
 ## License
 Unless otherwise noted, this work is licensed under a
