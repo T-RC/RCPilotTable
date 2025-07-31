@@ -60,7 +60,7 @@ I chose 3D-printing the box because I can skip several work steps and iterate fa
 ### feet
 The feet are 3D-printed in TPU at 100% infill.
 ### vertical wing restraint hanger
-The vertical wing restraint is a removable design made from PVC pipe (not my idea, credits?). It can be inserted into holes on the table to provide a hard stop for fixed-wing aircraft during setup and testing. Since these are not needed all the time, the restraints are removable and I designed a simple hanger to stow them when not in use.
+The vertical wing restraint is a removable design made from PVC pipe (not my idea, who get's credit?). It can be inserted into holes on the table to provide a hard stop for fixed-wing aircraft during setup and testing. Since these are not needed all the time, the restraints are removable and I designed a simple hanger to stow them when not in use.
 The hanger is 3D-printed in ASA. I'm sure there is an injection molded substitute somewhere, but I couldn't find anything I liked so I designed my own.
 
 ### router template
