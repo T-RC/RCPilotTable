@@ -1,5 +1,5 @@
 ## comments, questions and chat
-leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions)
+Leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions).
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
@@ -31,10 +31,10 @@ Safety first: This is still a prototype. Stay clear of moving parts and use it a
 
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
 
-Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
+Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling push-button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so it's best to start below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-A detailed build guide or a build video will follow. For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images)
+A detailed build guide or a build video will follow if there is interest in it [(feel free to leave a comment here)](https://github.com/T-RC/RCPilotTable/discussions). For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images).
 
 ![](/drawings%20and%20images/table%20assembly%20view.png)
 
