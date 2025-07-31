@@ -17,12 +17,12 @@ Initially, I did not see an issue with the tables at my local AMA field. They ar
 
 ![](/drawings%20and%20images/IMG_9917.png)
 
-I believe the design is, at least in parts, inspired by prior art as featured [here](https://www.modelaviation.com/Club-Field-Safety-Benches)
+I believe the design is, at least in parts, inspired by prior art as featured [here](https://www.modelaviation.com/Club-Field-Safety-Benches).
 
 One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to be height adjustable.
 A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
-I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
+I chose to use [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
 
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
