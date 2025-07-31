@@ -75,6 +75,9 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 - My next step is to record a build video for the electrical box
 - Maybe a full build video as well
 - The software can still use some work
+  
+let me know what you think [here](https://github.com/T-RC/RCPilotTable/discussions)
+
 
 ## License
 Unless otherwise noted, this work is licensed under a
