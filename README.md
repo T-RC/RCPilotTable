@@ -1,5 +1,5 @@
-# 🚧 pre-release note 🚧
-👷‍♂️ This repository is still a work-in-progress, please be patient.
+## comments, questions and chat
+leave comments, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions)
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
@@ -10,21 +10,24 @@
 
 ![](/drawings%20and%20images/IMG_9872.png)
 
+
 ## Project background
 
-Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. My design is inparts inspired by prior art as featured here:
+Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. 
 
-![](https://modelaviation.s3.us-east-2.amazonaws.com/08bench01-600.jpg?VersionId=744QaEbHNXa4dHiNFX8TMIt47bCXdaZG)
+![](/drawings%20and%20images/IMG_9917.png)
 
-source: https://www.modelaviation.com/Club-Field-Safety-Benches
+I believe the design is, at least in parts, inspired by prior art as featured [here](https://www.modelaviation.com/Club-Field-Safety-Benches)
 
-One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
+One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to be height adjustable.
 A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
 I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
 
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
+
+![](/drawings%20and%20images/IMG_9914.png)
 
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
 
