@@ -1,5 +1,5 @@
 ## comments, questions and chat
-leave comments, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions)
+leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions)
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
