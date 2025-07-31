@@ -1,5 +1,5 @@
-# 🚧 pre-release note 🚧
-👷‍♂️ This repository is still a work-in-progress, please be patient.
+## comments, questions and chat
+Leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions).
 
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
@@ -10,28 +10,31 @@
 
 ![](/drawings%20and%20images/IMG_9872.png)
 
+
 ## Project background
 
-Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. My design is inparts inspired by prior art as featured here:
+Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. 
 
-![](https://modelaviation.s3.us-east-2.amazonaws.com/08bench01-600.jpg?VersionId=744QaEbHNXa4dHiNFX8TMIt47bCXdaZG)
+![](/drawings%20and%20images/IMG_9917.png)
 
-source: https://www.modelaviation.com/Club-Field-Safety-Benches
+I believe the design is, at least in parts, inspired by prior art as featured [here](https://www.modelaviation.com/Club-Field-Safety-Benches).
 
-One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to height adjustable.
+One day, a fellow pilot pointed out that these tables are difficult for him to use. I realized that any table that has crossmembers connecting the legs is inaccessible for a pilot who uses a wheelchair. He also explained that a higher working surface would be nice to have. A few days later, I learned from another club member that a lower table surface would be better suited for his needs. I realized that a better table has to be height adjustable.
 A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
-I chose to use linear actuators for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
+I chose to use [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
 
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
 
+![](/drawings%20and%20images/IMG_9914.png)
+
 The table has an internal 8-36V buck/boost power regulator, so it can handle anything from 2S to 8S battery. Simply plug your pack into the XT60 connector. I don't have exact numbers on the current draw, but obviously it will be higher for lower voltage packs. Very small 2S or 3S packs might not have enough punch.
 
-Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so start it below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
+Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling push-button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so it's best to start below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-A detailed build guide or a build video will follow. For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images)
+A detailed build guide or a build video will follow if there is interest in it [(feel free to leave a comment here)](https://github.com/T-RC/RCPilotTable/discussions). For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images).
 
 ![](/drawings%20and%20images/table%20assembly%20view.png)
 
@@ -57,7 +60,7 @@ I chose 3D-printing the box because I can skip several work steps and iterate fa
 ### feet
 The feet are 3D-printed in TPU at 100% infill.
 ### vertical wing restraint hanger
-The vertical wing restraint is a removable design made from PVC pipe (not my idea, credits?). It can be inserted into holes on the table to provide a hard stop for fixed-wing aircraft during setup and testing. Since these are not needed all the time, the restraints are removable and I designed a simple hanger to stow them when not in use.
+The vertical wing restraint is a removable design made from PVC pipe (not my idea, who get's credit?). It can be inserted into holes on the table to provide a hard stop for fixed-wing aircraft during setup and testing. Since these are not needed all the time, the restraints are removable and I designed a simple hanger to stow them when not in use.
 The hanger is 3D-printed in ASA. I'm sure there is an injection molded substitute somewhere, but I couldn't find anything I liked so I designed my own.
 
 ### router template
@@ -72,6 +75,9 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 - My next step is to record a build video for the electrical box
 - Maybe a full build video as well
 - The software can still use some work
+  
+let me know what you think [here](https://github.com/T-RC/RCPilotTable/discussions)
+
 
 ## License
 Unless otherwise noted, this work is licensed under a
