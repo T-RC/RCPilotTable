@@ -27,6 +27,8 @@ I chose to use [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I
 I have built one prototype so far. After it was finished, I donated it to the [Triple Creek Radio Control Aircraft Club](www.triplecreekrc.com) where it is in use since July 2025. The Tripple Creek RC field is located at 12705 Balm Boyette Rd
 Riverview, FL 33579. 
 
+![](/photo%20gallery/table%20in%20use%201.png)
+
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
 
