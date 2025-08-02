@@ -1,6 +1,3 @@
-## comments, questions and chat
-Leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions).
-
 # RC Pilot Table
 :airplane: This is a height adjustable, auto leveling table, intended for RC pilots. This table uses four [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) as legs.
 
@@ -10,10 +7,12 @@ Leave comments, reviews, ask questions or start a conversation about this projec
 
 ![](/drawings%20and%20images/IMG_9872.png)
 
+## comments, questions and chat
+You can leave comments, reviews, ask questions or start a conversation about this project [here](https://github.com/T-RC/RCPilotTable/discussions).
 
 ## Project background
 
-Initially, I did not see an issue with the tables at my local AMA field. They are a common design, made of affordable materials and mostly construction wood. 
+Initially, I did not see an issue with the tables at my [local AMA field](www.triplecreekrc.com). They are a common design, made of affordable materials and mostly construction wood. 
 
 ![](/drawings%20and%20images/IMG_9917.png)
 
@@ -23,6 +22,10 @@ One day, a fellow pilot pointed out that these tables are difficult for him to u
 A web search for an off-the-shelf solution yielded no convincing options and neither did my search for better open source designs. I decided to come up with my own solution.
 
 I chose to use [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
+
+## The prototype
+I have built one prototype so far. After it was finished, I donated it to the [Triple Creek Radio Control Aircraft Club](www.triplecreekrc.com) where it is in use since July 2025. The Tripple Creek RC field is located at 12705 Balm Boyette Rd
+Riverview, FL 33579. 
 
 ## How to operate
 Safety first: This is still a prototype. Stay clear of moving parts and use it at your own risk. Only plug in a battery while using it and be ready to unplug if anything unexpected happens. Don't leave a battery plugged in unattended.
