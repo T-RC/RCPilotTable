@@ -39,7 +39,7 @@ The table has an internal 8-36V buck/boost power regulator, so it can handle any
 Use the rocker switch to adjust the deck to the desired height, or slightly below it. Then use the leveling push-button and watch the magic happen. The table will attempt to raise the corners until the deck is level. Leveling happens upwards, so it's best to start below the desired height. The software code will time out after a few seconds, press the button again as needed. The programming is not very sophisticated yet. Press down on a corner and level it again if the table teeters.   
 
 ## How to build
-A detailed build guide or a build video will follow if there is interest in it [(feel free to leave a comment here)](https://github.com/T-RC/RCPilotTable/discussions). For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images).
+A detailed build guide or a build video will follow if there is interest in it [(feel free to leave a comment here)](https://github.com/T-RC/RCPilotTable/discussions). For the time being, I an providing the [FreeCAD](https://www.freecad.org/) drawings, electrical schematics and STLs in the [subfolders](/drawings%20and%20images). I have video of the build of the electrical box. Github does not allow me to post it here, but I can make it available on request.
 
 ![](/drawings%20and%20images/table%20assembly%20view.png)
 
@@ -61,7 +61,7 @@ The legs I used are [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?col
 ### 3D Prints
 I used [FreeCad](https://www.freecad.org/) for all the designs and [all drawings are here](/drawings%20and%20images). The STLs are posted [here](/3D%20print%20STLs). As filament, I am using either [Polymaker ASA](https://www.amazon.com/dp/B09DKQK318/?coliid=I2VLWN38FZA86A&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) or [Priline TPU](https://www.amazon.com/dp/B0BJ5XRDFB/?coliid=I2SHOWQPSHQ9XM&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it). 
 ### electrical box
-I chose 3D-printing the box because I can skip several work steps and iterate faster this way. It also allows having a two colored front plate by stopping the printer and changing color after a few layers. An [off the shelve electrical enclosure](https://www.amazon.com/dp/B08N1DD5WJ/?coliid=I3T08VJ4IFBYYQ&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) will work just as well though.
+I chose 3D-printing the box because I can skip several work steps and iterate faster this way. It also allows having a two colored front plate by stopping the printer and changing color after a few layers. An [off the shelve electrical enclosure](https://www.amazon.com/dp/B08N1DD5WJ/?coliid=I3T08VJ4IFBYYQ&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) will work just as well though. As mentioned above, a build video is available.
 ### feet
 The feet are 3D-printed in TPU at 100% infill.
 ### vertical wing restraint hanger
@@ -77,9 +77,8 @@ These are not affiliate links and I am not trying to monetize or profit of this 
 [Amazon list](https://www.amazon.com/hz/wishlist/ls/PGYE4HTR4F8?ref_=wl_share)
 
 ## What's next
-- My next step is to record a build video for the electrical box
-- Maybe a full build video as well
-- The software can still use some work
+- A full build video
+- The software can still use some work.
   
 let me know what you think [here](https://github.com/T-RC/RCPilotTable/discussions)
 
