@@ -24,7 +24,7 @@ A web search for an off-the-shelf solution yielded no convincing options and nei
 I chose to use [linear actuators](https://www.amazon.com/dp/B00NM8H67C/?coliid=I13O6CUFJ1UPBA&colid=PGYE4HTR4F8&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) for the height adjustable legs. The rest of the design is driven by this decision. The actuators are marketed for use with solar panels, so they are weather resistant, IP54 rated, and affordable enough at around ~$50 a piece. They are however also not very precise, consistent or repeatable in their positioning and additional electronics are required for a level surface and to prevent rocking.
 
 ## The prototype
-I have built one prototype so far. After it was finished, I donated it to the [Triple Creek Radio Control Aircraft Club](https://www.triplecreekrc.com) where it is in use since July 2025. The Tripple Creek RC field is located at 12705 Balm Boyette Rd
+I have built one prototype so far. After it was finished, I donated it to the [Triple Creek Radio Control Aircraft Club](https://www.triplecreekrc.com) [(facebook)](https://www.facebook.com/share/1CnncBL3pf/?mibextid=wwXIfr) where it is in use since July 2025. The Tripple Creek RC field is located at 12705 Balm Boyette Rd
 Riverview, FL 33579. 
 
 ![](/photo%20gallery/table%20in%20use%201.png)
@@ -84,6 +84,7 @@ let me know what you think [here](https://github.com/T-RC/RCPilotTable/discussio
 
 ## See the prototype or learn to fly RC at Triple Creek RC
 [website](https://www.triplecreekrc.com) 
+
 [facebook page](https://www.facebook.com/share/1CnncBL3pf/?mibextid=wwXIfr).
 
 ## License
