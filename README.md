@@ -12,7 +12,7 @@ You can leave comments, reviews, ask questions or start a conversation about thi
 
 ## Project background
 
-Initially, I did not see an issue with the tables at my [local AMA field](https://www.triplecreekrc.com). They are a common design, made of affordable materials and mostly construction wood. 
+Initially, I did not see an issue with the tables at my [local AMA field](https://www.triplecreekrc.com) [facebook page](https://www.facebook.com/share/1CnncBL3pf/?mibextid=wwXIfr). They are a common design, made of affordable materials and mostly construction wood. 
 
 ![](/drawings%20and%20images/IMG_9917.png)
 
@@ -82,6 +82,9 @@ These are not affiliate links and I am not trying to monetize or profit of this 
   
 let me know what you think [here](https://github.com/T-RC/RCPilotTable/discussions)
 
+## See the prototype or learn to fly RC at Triple Creek RC
+[website](https://www.triplecreekrc.com) 
+[facebook page](https://www.facebook.com/share/1CnncBL3pf/?mibextid=wwXIfr).
 
 ## License
 Unless otherwise noted, this work is licensed under a
